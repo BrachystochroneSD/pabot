@@ -13,7 +13,7 @@ class SharedLibrary(object):
 
     ROBOT_LIBRARY_SCOPE = "GLOBAL"
 
-    def __init__(self, name, args=None):
+    def __init__(self, name, *args):
         """
         Import a library so that the library instance is shared between executions.
         [https://pabot.org/PabotLib.html?ref=log#import-shared-library|Open online docs.]
